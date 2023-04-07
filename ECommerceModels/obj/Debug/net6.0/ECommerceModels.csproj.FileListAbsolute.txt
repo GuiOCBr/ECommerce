@@ -1,0 +1,12 @@
+D:\ProjetosGitHub\ECommerce\ECommerceModels\bin\Debug\net6.0\ECommerceModels.deps.json
+D:\ProjetosGitHub\ECommerce\ECommerceModels\bin\Debug\net6.0\ECommerceModels.dll
+D:\ProjetosGitHub\ECommerce\ECommerceModels\bin\Debug\net6.0\ECommerceModels.pdb
+D:\ProjetosGitHub\ECommerce\ECommerceModels\obj\Debug\net6.0\ECommerceModels.csproj.AssemblyReference.cache
+D:\ProjetosGitHub\ECommerce\ECommerceModels\obj\Debug\net6.0\ECommerceModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetosGitHub\ECommerce\ECommerceModels\obj\Debug\net6.0\ECommerceModels.AssemblyInfoInputs.cache
+D:\ProjetosGitHub\ECommerce\ECommerceModels\obj\Debug\net6.0\ECommerceModels.AssemblyInfo.cs
+D:\ProjetosGitHub\ECommerce\ECommerceModels\obj\Debug\net6.0\ECommerceModels.csproj.CoreCompileInputs.cache
+D:\ProjetosGitHub\ECommerce\ECommerceModels\obj\Debug\net6.0\ECommerceModels.dll
+D:\ProjetosGitHub\ECommerce\ECommerceModels\obj\Debug\net6.0\refint\ECommerceModels.dll
+D:\ProjetosGitHub\ECommerce\ECommerceModels\obj\Debug\net6.0\ECommerceModels.pdb
+D:\ProjetosGitHub\ECommerce\ECommerceModels\obj\Debug\net6.0\ref\ECommerceModels.dll
