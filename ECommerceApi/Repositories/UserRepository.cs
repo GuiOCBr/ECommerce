@@ -5,15 +5,6 @@ namespace ECommerceApi.Repositories
     public class UserRepository : IUserRepository
     {
         public static List<User> _db = new List<User>();
-        public void Add(User user)
-        {
-            _db.Add(user);
-        }
-
-        public void Delete(int id)
-        {
-            _db.Remove(Get(id));
-        }
 
         public List<User> Get()
         {
@@ -25,10 +16,19 @@ namespace ECommerceApi.Repositories
             return _db.Find(x => x.Id == id)!;
         }
 
-        public void Update(User user)
+        public void Add(User user)
+        {
+            _db.Add(user);
+        }
+        public void Update(User user) // Revisar essa função depois , continua tendo o mesmo Id só vai atualizar o nome 
         {
             _db.Remove(Get(user.Id));
             _db.Add(user);
+        }
+
+        public void Delete(int id)
+        {
+            _db.Remove(Get(id));
         }
     }
 }
