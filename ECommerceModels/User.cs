@@ -27,7 +27,7 @@
         //  são  os relacionamentos 
         public Contact? Contatact { get; set; } // necessário para POO
 
-        public ICollection<DeliveryAddress> DeliveryAddress { get; set; }
+        public ICollection<DeliveryAddress>? DeliveryAddress { get; set; }
 
         public ICollection<Department>? Department { get; set; }
 
