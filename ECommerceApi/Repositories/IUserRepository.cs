@@ -14,9 +14,9 @@ namespace ECommerceApi.Repositories
 
         public User Get(int id);
 
-        public void Add(User user); // passar o objeto por referencia , pois se houver alteração ela se reflete para fora 
+        public void Add(User user); // passar o objeto por referencia , pois se houver alteração ela se reflete para fora / usar VOID
 
-        public void Update(User user); // passar o objeto por referencia , pois se houver alteração ela se reflete para fora
+        public void Update(User user); // passar o objeto por referencia , pois se houver alteração ela se reflete para fora / usar VOID
 
         public void Delete(int id); // da para melhorar o tipo de dado referente ao retorno 
 
