@@ -2,18 +2,17 @@ using ECommerceApi.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Configurando os serviços que sua aplicação vai usar 
-
+#region ConfigureService()
+// Aqui fica os serviços que a aplicação vai usar
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-
+#endregion
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+#region Configure()
+// Aonde fica o pipeline de execução, fluxo 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -27,3 +26,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+#endregion
